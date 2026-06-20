@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Redirection...</title>
+    <style>
+        body { font-family: -apple-system, sans-serif; display: flex; justify-content: center; align-items: center; min-height: 100vh; color: #333; }
+        .card { text-align: center; padding: 2rem; }
+    </style>
+    <script>
+        const params = window.location.search;
+        window.location.href = 'http://127.0.0.1:8000/publish/callback' + params;
+    </script>
+</head>
+<body>
+    <div class="card">
+        <p>Redirection vers Clip Factory...</p>
+    </div>
+</body>
+</html>
